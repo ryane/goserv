@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: goserv
+  description: golang microservice
+  annotations: 
+    github.com/project-slug: ryane/goserv
+    backstage.io/source-ref: "https://github.com/ryane/goserv"
+    backstage.io/techdocs-ref: url:https://github.com/ryane/goserv
+    backstage.io/github-actions-id: https://github.com/ryane/goserv
+spec:
+  type: service
+  lifecycle: experimental
+  owner: ryane
